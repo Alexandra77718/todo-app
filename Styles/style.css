@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(243, 234, 251);
+}
+
+.box {
+    width: 900px;
+    height: 900px;
+    background-color: rgb(216, 174, 255);
+    margin: 0 auto;
+}
+.input {
+    width: 800px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 30px 0px 40px rgba(255, 235, 205, 0.803);
+    margin: 50px;
+    background-color: rgb(243, 234, 251);
+    color: black;
+    font-weight: 500;
+    font-size: 21px;
+}
+input::-webkit-input-placeholder {
+     color: rgb(215, 209, 209);
+}
+
+.line {
+    border-bottom: 2px solid rgb(16, 16, 16);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+}
+
+.count {
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 30px 15px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.count_active, .count_completed {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(243, 234, 251);
+    margin-left: 10px;
+}
+
+.search {
+    width: 600px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px 150px;
+    background-color: rgb(243, 234, 251);
+    color: rgba(0, 0, 0, 0.274);
+    font-weight: 500;
+    font-size: 21px;
+} 
+
+.checkbox {
+    content: '';
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #6a6969;
+    border-radius: 0.3em;
+    margin: 0 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+.todo_checkbox {
+    content: '';
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #6a6969;
+    border-radius: 0.3em;
+    margin: 0 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.todo_checkbox_delete:active  {
+    border: 3px solid black;
+}
+  

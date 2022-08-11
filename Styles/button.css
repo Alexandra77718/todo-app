@@ -1,0 +1,61 @@
+.for_button {
+    margin: 0px auto;
+    width: 600px;
+    height: 70px;
+}
+
+.button {
+    width: 600px;
+    height: 57px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(193, 129, 253); 
+    font-weight: 800; 
+    font-size: 15px;
+}
+.button:hover {
+    background-color: rgb(139, 57, 216);
+    border: 3px solid black;
+}
+.button:active {
+    background-color: rgb(80, 6, 149);
+    border: 3px solid black;
+}
+.button_checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_delete_all {
+    width: 200px;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(128, 35, 214); 
+    font-weight: 800; 
+    font-size: 15px;
+    margin-right: 50px;
+}
+.button_delete_all:hover {
+    background-color: rgb(247, 6, 94);
+}
+.button_delete_all:active {
+    background-color: rgb(201, 10, 80);
+    border: 3px solid black;
+}
+.button_delete_completed {
+    width: 200px;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(164, 164, 164); 
+    font-weight: 800; 
+    font-size: 15px;
+}
+.button_delete_completed:hover {
+    background-color: rgb(247, 234, 99);
+}
+.button_delete_completed:active {
+    background-color: rgba(91, 89, 90, 0.924);
+    border: 3px solid black;
+}
